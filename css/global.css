@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Single Day', cursive;
+    box-sizing: border-box; /*Due the input for to limit it*/
+}
+
+body {
+    display: flex;  /*To stayr in the center*/
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #34db7a;
+}
+
+@media  (max-width: 450px) {
+    body {
+       
+        background-color: #065e2a;
+    }
+    
+}
